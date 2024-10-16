@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<!DOCTYPE html>    
+<html>
+<head>
+  <title>Carbon Footprint Tracker</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <aside class="sidebar">
+            <div class="logo-section">
+                <h1>FOOTPRINTX <span class="icon">🚴‍♂️</span></h1>
+                <p>Every action counts!</p>
+            </div>
+            <nav class="nav-section">
+                <ul>
+                    <li><a href="#" class="nav-btn">Home</a></li>
+                    <li><a href="#" class="nav-btn">Track</a></li>
+                    <li><a href="#" class="nav-btn">Ranking</a></li>
+                    <li><a href="#" class="nav-btn">Complain portal</a></li>
+                </ul>
+            </nav>
+        </aside>
+        
+
+        <main class="content">
+            <header class="header">
+                <p>RANK #730</p>
+                <button class="settings-btn">⚙️</button>
+            </header>
+
+            <section class="main-content">
+                <div class="co2-display">
+                        <div class="circle">
+                            <h2>CO2</h2>
+                            <p class="co2-value">149 <span>KG</span></p>
+                            <p class="today-text">TODAY</p>
+                        </div>
+                        <p class="greeting">HELLO SOHAM</p>
+                        <p>See your carbon footprint today!</p>
+                        <div class="buttons">
+                            <button class="btn add-journey">+ ADD JOURNEY</button>
+                            <button class="btn monthly">MONTHLY</button>
+                        </div>
+                    </div>
+                    
+
+                <div class="consumption-chart">
+                    <h3>Consumption</h3>
+                    <div class="chart">
+                        <div class="bar" style="height: 80%;">Jul</div>
+                        <div class="bar" style="height: 60%;">Aug</div>
+                        <div class="bar" style="height: 70%;">Sep</div>
+                        <div class="bar" style="height: 65%;">Oct</div>
+                        <div class="bar" style="height: 85%;">Nov</div>
+                        <div class="bar" style="height: 90%;">Dec</div>
+                    </div>
+                    <p>Global Average: 780kg</p>
+                </div>
+            </section>
+
+            <section class="journey-section">
+                <h3>Add Journey</h3>
+                <form id="journey-form">
+                    <label for="mileage">Mileage</label>
+                    <input type="number" id="mileage" name="mileage" value="20">
+                    
+                    <label for="type">Type</label>
+                    <select id="type" name="type">
+                        <option value="car">Car</option>
+                        <option value="bike">Bike</option>
+                        <option value="bus">Bus</option>
+                        <option value="train">Train</option>
+                        <option value="plane">Plane</option>
+                    </select>
+
+                    <button type="button" onclick="calculateCO2()">Calculate</button>
+                </form>
+            </section>
+        </main>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
