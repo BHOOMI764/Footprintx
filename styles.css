@@ -344,7 +344,7 @@ body {
 .nav-btn:hover, .action-btn:hover {
     animation: pulse 1s infinite;
 }
-/* Sidebar navigation entrance */
+
 @keyframes slideIn {
     from {
         opacity: 0;
@@ -372,4 +372,139 @@ body {
 }
 .nav-btn:nth-child(4) {
     animation-delay: 1.1s;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #a6d785;
+    color: #333;
+    text-align: center;
+    padding: 20px;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+main {
+    padding: 20px;
+}
+
+
+.profile {
+    background-color: #e0f7d9;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.profile-img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.profile h2 {
+    margin: 10px 0;
+}
+
+.profile p {
+    font-size: 1.2em;
+    color: #555;
+}
+
+
+.friends {
+    background-color: #dff0d8;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.friend {
+    background-color: #a6d785;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+
+.activity {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.activity h3 {
+    margin-bottom: 15px;
+}
+
+.activity-item {
+    background-color: #a6d785;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.complain {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.complain textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.ministry-links {
+    margin-top: 20px;
+}
+
+.ministry-links li {
+    margin-bottom: 10px;
+}
+
+.ministry-links a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.ministry-links a:hover {
+    text-decoration: underline;
+}
+
+#errorMessage {
+    font-size: 14px;
+}
+.complaint-history {
+    background-color: #f0f8ff; 
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.complaint-history h3 {
+    margin-bottom: 15px;
+}
+
+.complaint-history ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.complaint-history li {
+    background-color: #e6f9ff; 
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
 }
